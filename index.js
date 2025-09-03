@@ -74,8 +74,10 @@ app.get("/document/:id", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 5000, () =>
-  console.log(
-    `🚀 Server running on http://localhost:${process.env.PORT || 5000}`
-  )
-);
+// app.listen(process.env.PORT || 5000, () =>
+  // console.log(
+    // `🚀 Server running on http://localhost:${process.env.PORT || 5000}`
+  // )
+// );
+
+module.exports = app;
